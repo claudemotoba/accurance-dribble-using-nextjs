@@ -1,0 +1,36 @@
+.container_card_compagny{
+    height: 80%;
+    margin: 10% auto !important;
+    padding: 5%;
+    border-radius: 5px;
+    width: 80%;
+    background-color: #FBFBFD;
+    h4{
+        margin: 0;
+    }
+    .text_compagny{
+        line-height: 20px;
+        p{
+            font-size: 11px;
+        }
+    }
+    .footer_card_compagny{
+        display: flex;
+        justify-content: space-between;
+        p{
+            margin: auto 0;
+        }
+        .container_button{
+            width: 40%;
+            button{
+                width: 75%;
+                background-color: #04BF9D;
+                border-radius: 5px;
+                border: none;
+                height: 2rem;
+                color: #fff;
+            }
+        }
+    }
+
+}

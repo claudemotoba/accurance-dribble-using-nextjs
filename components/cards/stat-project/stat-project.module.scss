@@ -1,0 +1,26 @@
+.container_stat_projet{
+    background-color: #fafdfcbb;
+    border-radius: 5px;
+    padding: 1% 2%;
+    width: 25%;
+    display: flex;
+    margin: 0 auto;
+    .stat_projet_1{
+        width: 75%;
+        h4{
+            margin: 0;
+        }
+        p{
+            font-size: 12px;
+            margin: 3% 0;
+        }
+    }
+    .stat_projet_2{
+        background-color: #4C6FFF;
+        width: 15%;
+        margin-left: 10%;
+        height: 2.5rem;
+        margin: auto 0;
+        border-radius: 100%;
+    }
+}

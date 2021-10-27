@@ -4,7 +4,7 @@ export const TryForFree = () => {
     return(
         <div className={styles.try_container}>
             <div className={styles.container_input}>
-                <input type="text" placeholder="Your email address"/>
+                <input type="email" placeholder="Your email address"/>
             </div>
             <div className={styles.container_button}>
                 <button>Try it for free</button>
