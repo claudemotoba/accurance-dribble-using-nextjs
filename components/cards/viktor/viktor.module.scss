@@ -1,0 +1,43 @@
+.container_card_viktor{
+    background-color: #fafdfcbb !important;
+    border-radius: 5px;
+    padding: 5% 7%;
+    width: 65%;
+    margin-left: 35%;
+    .section_profil{
+        display: flex;
+        .profil_card{
+            width: 2.5rem;
+            height: 2.5rem;
+            padding: 4.5% 1.5% 4% 2.8%;
+            border-radius: 100%;
+            color: #fff;
+            background-color: #F29F05;
+        }
+        .title_person{
+            line-height: 20px;
+            margin-left: 5%;
+            h4{
+                margin: 0;
+            }
+            p{
+                font-size: 11px;
+                color: #5e686b;
+                margin: 0;
+            }
+        }
+    }
+    .container_more_information{
+        margin-top: 8%;
+        h6{
+            font-weight: normal;
+            color: #5e686b;
+            margin: 0;
+        }
+        p{
+            font-size: 12px;
+            margin: 3% 0;
+        }
+    }
+    
+}

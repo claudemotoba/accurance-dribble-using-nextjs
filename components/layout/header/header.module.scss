@@ -1,0 +1,49 @@
+.header{
+    width: 100%;
+    display: flex;
+    padding: 1% 10%;
+    background-color: #DFF3EE;
+    nav{
+        width: 50%;
+        ul{
+            display: flex;
+            justify-content: space-between;
+            padding: 0 10%;
+            li{
+                list-style-type: none;
+                a{
+                    color: #5e686b;
+                    font-size: 13px;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    .logo{
+        width: 20%;
+    }
+    .signin_signup{
+        width: 30%;
+        display: flex;
+        justify-content: space-around;
+        margin: auto 0;
+        padding: 0 1%;
+        div{
+            .btn_sign_up{
+                height: 2.5rem;
+                width: 8rem;
+                border: #04BF9D solid 2px;
+                border-radius: 5px;
+                background-color: transparent;
+                color: #04BF9D;
+            }
+            .btn_sign_in{
+                width: 5rem;
+                border: none;
+                background-color: transparent;
+                height: 2.5rem;
+                font-weight: bold;
+            }
+        }
+    }
+}
