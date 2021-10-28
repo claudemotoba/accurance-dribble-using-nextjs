@@ -115,6 +115,47 @@ export default function Home() {
 
         </div>
 
+
+
+        <div className={styles.four_section}>
+            <div className={styles.container_profil}>
+              <ViktorCard/>
+            </div>
+
+            <div className={styles.hire_your_as}>
+              <div className={styles.get_best}>
+                <div className={styles.line_h4}></div>
+                <h4>
+                  Get Best Accountant
+                </h4>
+                
+              </div>
+              <h2>
+                Hire your Accountant and get contact
+              </h2>
+              <p>
+                The safe and unsafe modifier keywords can be used in conjunction with all the rest of these keywords (although note browser support), and deal with helping you prevent aligning elements such that the content becomes inaccessible.
+              </p>
+              <div className={styles.footer_third_section}>
+                <div className={styles.container_button}>
+                  <button>Hire Employe</button>
+                </div>
+                <div className={styles.looking_link}>
+                  <Link href="#">
+                    <a>looking for a job ?</a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div>
+
+          <h2>
+            Our Accountant and Client speak
+          </h2>
+        </div>
+
       </Layout>
 
     </div>
