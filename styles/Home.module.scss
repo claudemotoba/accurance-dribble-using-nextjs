@@ -145,6 +145,7 @@
   margin-top: 5%;
   display: flex;
   justify-content: space-between;
+  background-color: #F2F2F2;
   .container_profil{
     width: 50%;
     margin: auto 0;
@@ -198,5 +199,19 @@
         }
       }
     }
+  }
+}
+.five_section{
+  padding: 3% 10%;
+  background-color: #F2F2F2;
+  text-align: center;
+  h2{
+    font-size: 40px;
+    
+  }
+  .container_three_card{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
   }
 }

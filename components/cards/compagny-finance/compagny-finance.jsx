@@ -19,7 +19,7 @@ export const CompagnieFinance = () => {
                     Send on Email as well
                 </p>
                 <div className={styles.container_button}>
-                    <button>Upload CV</button>
+                    <button>Send</button>
                 </div>
             </div>
         </div>

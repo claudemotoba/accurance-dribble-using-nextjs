@@ -8,6 +8,7 @@ import { ViktorCard } from '../components/cards/viktor/viktor';
 import { StatProject } from '../components/cards/stat-project/stat-project';
 import { HowToFind } from '../components/cards/fin-card/how-find';
 import { CompagnieFinance } from '../components/cards/compagny-finance/compagny-finance';
+import { ClientSpeak } from '../components/cards/client-speak/client-speak';
 
 export default function Home() {
   return (
@@ -149,11 +150,30 @@ export default function Home() {
             </div>
         </div>
 
-        <div>
+        <div className={styles.five_section}>
 
           <h2>
             Our Accountant and Client speak
           </h2>
+          <p>The fast way to find your best accoutant</p>
+
+          <div className={styles.container_three_card}>
+            <ClientSpeak
+              name="Claude Motoba"
+              skill="Front-End Developer"
+              title="Helping Your Business"
+            />
+            <ClientSpeak
+              name="Jonas Fernando"
+              skill="Fullstack Developer"
+              title="Best service"
+            />
+            <ClientSpeak
+              name="Michael Cooper"
+              skill="UI UX Designer"
+              title="Multilevel Impressed"
+            />
+          </div>
         </div>
 
       </Layout>
