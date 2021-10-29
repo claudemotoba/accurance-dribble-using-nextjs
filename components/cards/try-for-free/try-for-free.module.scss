@@ -32,6 +32,9 @@
             border: none;
             height: 3rem;
             color: #fff;
+            &:hover{
+                cursor: pointer !important;
+            }
         }
     }
 }

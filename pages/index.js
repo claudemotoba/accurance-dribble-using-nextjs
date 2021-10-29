@@ -205,27 +205,27 @@ export default function Home() {
 
           <div className={styles.container_trusted}>
             <h3>Trusted by 15,000+ happy Client and Accountant users since 2018</h3>
-            <p>Alse featured in</p>
+            <p>Also featured in</p>
             <div className={styles.container_images_part}>
               <div>
                 <Image
-                  src="/images/"
+                  src="/images/google.png"
                   width={100}
                   height={30}
                 />
               </div>
               <div>
                 <Image
-                  src="/images/"
-                  width={100}
-                  height={30}
+                  src="/images/microsoft.png"
+                  width={120}
+                  height={80}
                 />
               </div>
               <div>
                 <Image
-                  src="/images/"
+                  src="/images/facebook.png"
                   width={100}
-                  height={30}
+                  height={50}
                 />
               </div>
             </div>

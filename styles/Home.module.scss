@@ -124,6 +124,9 @@
             border: none;
             height: 3rem;
             color: #fff;
+            &:hover{
+              cursor: pointer;
+            }
         }
       }
       .looking_link{
@@ -269,6 +272,13 @@
     padding: 3% 5%;
     .tenK{
       width: 50%;
+      .looking_link{
+        a{
+          text-decoration: none;
+          color: #4269eb;
+          // font-weight: bold;
+        }
+      }
       h3{
         font-size: 45px;
         margin: 0;
@@ -276,6 +286,13 @@
     }
     .fourK{
       width: 50%;
+      .looking_link{
+        a{
+          text-decoration: none;
+          color: #4269eb;
+          // font-weight: bold;
+        }
+      }
       h3{
         font-size: 45px;
         margin: 0;
@@ -292,6 +309,19 @@
     }
     .container_images_part{
       display: flex;
+      div{
+        margin: auto 4%;
+      }
+    }
+    p{
+      margin: 0;
+    }
+    .looking_link{
+      a{
+        text-decoration: none;
+        color: #F29F05;
+        font-weight: bold;
+      }
     }
   }
 }
