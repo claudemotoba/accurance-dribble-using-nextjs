@@ -1,5 +1,6 @@
 import Head from 'next/head'
-import Link from 'next/link'
+import Link from 'next/link';
+import Image from 'next/image';
 
 import styles from '../styles/Home.module.scss';
 import { Layout } from '../components/layout/main';
@@ -173,6 +174,80 @@ export default function Home() {
               skill="UI UX Designer"
               title="Multilevel Impressed"
             />
+          </div>
+        </div>
+
+        <div className={styles.container_tenK_and_four}>
+
+          <div className={styles.tenKandfourK}>
+
+            <div className={styles.tenK}>
+              <h3>10k</h3>
+              <p>Active Freelancers</p>
+              <div className={styles.looking_link}>
+                <Link href="#">
+                  <a>One website</a>
+                </Link>
+              </div>
+            </div>
+
+            <div className={styles.fourK}>
+              <h3>4.7k</h3>
+              <p>1,588 Reating</p>
+              <div className={styles.looking_link}>
+                <Link href="#">
+                  <a>Accurance Client</a>
+                </Link>
+              </div>
+            </div>
+
+          </div>
+
+          <div className={styles.container_trusted}>
+            <h3>Trusted by 15,000+ happy Client and Accountant users since 2018</h3>
+            <p>Alse featured in</p>
+            <div className={styles.container_images_part}>
+              <div>
+                <Image
+                  src="/images/"
+                  width={100}
+                  height={30}
+                />
+              </div>
+              <div>
+                <Image
+                  src="/images/"
+                  width={100}
+                  height={30}
+                />
+              </div>
+              <div>
+                <Image
+                  src="/images/"
+                  width={100}
+                  height={30}
+                />
+              </div>
+            </div>
+            <div className={styles.looking_link}>
+              <Link href="#">
+                <a>Read more</a>
+              </Link>
+            </div>
+          </div>
+        </div>
+
+        <div className={styles.grand_container}>
+          <div className={styles.container_subscribe}>
+            <div className={styles.not_inspi}>
+              <h3>Subscribe Now for Get Special Features</h3>
+              <p>
+                Let's subscribe with us and find the fun
+              </p>
+            </div>
+            <div className={styles.container_button}>
+              <button>Subscribe now</button>
+            </div>
           </div>
         </div>
 

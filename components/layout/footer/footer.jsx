@@ -5,8 +5,17 @@ import styles from './footer.module.scss'
 export const Footer = () =>{
     return(
         <footer className={styles.footer}>
-            <div>
-                Assurance logo
+            <div className={styles.logo_footer}>
+                <h3>Accurance</h3>
+                <p>
+                    <span>Accurance</span> is a private virtual network that as unique features and has high security.
+                </p>
+                <div className={styles.container_icon_footer}>
+
+                </div>
+                <p>
+                    2020 - Accurance
+                </p>
             </div>
             <div>
                 <h5>Product</h5>
