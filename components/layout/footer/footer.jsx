@@ -1,4 +1,6 @@
-import Link from 'next/link'
+import Link from 'next/link';
+import { FaFacebookF } from 'react-icons/fa';
+import { AiOutlineTwitter, AiFillInstagram } from 'react-icons/ai';
 
 import styles from './footer.module.scss'
 
@@ -11,7 +13,15 @@ export const Footer = () =>{
                     <span>Accurance</span> is a private virtual network that as unique features and has high security.
                 </p>
                 <div className={styles.container_icon_footer}>
-
+                    <div>
+                        <FaFacebookF/>
+                    </div>
+                    <div>
+                        <AiOutlineTwitter/>
+                    </div>
+                    <div>
+                        <AiFillInstagram/>
+                    </div>
                 </div>
                 <p>
                     2020 - Accurance

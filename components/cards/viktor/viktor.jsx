@@ -1,3 +1,4 @@
+import { BsFillBagXFill } from 'react-icons/bs'
 import styles from './viktor.module.scss'
 
 export const ViktorCard = () => {
@@ -18,7 +19,7 @@ export const ViktorCard = () => {
                     19 May 1999
                 </p>
                 <p>
-                    Profesional Accoutant
+                    <BsFillBagXFill/> Profesional Accoutant
                 </p>
             </div>
         </div>

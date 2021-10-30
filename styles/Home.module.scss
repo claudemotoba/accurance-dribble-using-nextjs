@@ -272,6 +272,11 @@
     padding: 3% 5%;
     .tenK{
       width: 50%;
+      div{
+        svg{
+          color: rgb(226, 3, 3);
+        }
+      }
       .looking_link{
         a{
           text-decoration: none;
@@ -281,11 +286,16 @@
       }
       h3{
         font-size: 45px;
-        margin: 0;
+        margin: 0 0 4% 0;
       }
     }
     .fourK{
       width: 50%;
+      div{
+        svg{
+          color:gold;
+        }
+      }
       .looking_link{
         a{
           text-decoration: none;
@@ -295,7 +305,7 @@
       }
       h3{
         font-size: 45px;
-        margin: 0;
+        margin: 0 0 4% 0;
       }
     }
   }
@@ -323,5 +333,14 @@
         font-weight: bold;
       }
     }
+  }
+}
+
+.container_all_partainers{
+  display: flex;
+  justify-content: space-between;
+  padding: 3% 10%;
+  div{
+    margin: auto 0;
   }
 }

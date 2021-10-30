@@ -2,4 +2,14 @@
     text-align: center;
     width: 25%;
     line-height: 25px;
+    .container_icon{
+        width: 25%;
+        width: 25%;
+        margin: 0 auto;
+        padding: 4%;
+        border-radius: 10px;
+        svg{
+            font-size: 30px;
+        }
+    }
 }

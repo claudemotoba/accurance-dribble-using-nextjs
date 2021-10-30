@@ -11,6 +11,15 @@
             p{
                 font-size: 12px;
             }
+            .container_icon_footer{
+                display: flex;
+                div{
+                    margin-right: 20%;
+                    svg{
+                        color: #04BF9D;
+                    }
+                }
+            }
         }
         &:nth-child(2){
             width: 20%;
