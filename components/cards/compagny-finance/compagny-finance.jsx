@@ -1,3 +1,4 @@
+import { AiOutlineCheckSquare } from 'react-icons/ai';
 import styles from './compagny-finance.module.scss'
 
 export const CompagnieFinance = () => {
@@ -16,7 +17,12 @@ export const CompagnieFinance = () => {
             </div>
             <div className={styles.footer_card_compagny}>
                 <p>
-                    Send on Email as well
+                    <p>
+                        <AiOutlineCheckSquare/>
+                    </p>
+                    <p>
+                        Send on Email as well
+                    </p>
                 </p>
                 <div className={styles.container_button}>
                     <button>Send</button>

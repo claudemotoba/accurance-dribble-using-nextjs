@@ -17,10 +17,15 @@
     }
     .stat_projet_2{
         background-color: #4C6FFF;
+        color: #fff;
         width: 15%;
         margin-left: 10%;
         height: 2.5rem;
+        padding: 3%;
         margin: auto 0;
         border-radius: 100%;
+        svg{
+            font-size: 25px;
+        }
     }
 }

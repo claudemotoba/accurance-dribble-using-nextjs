@@ -1,3 +1,4 @@
+import { BsEmojiSmile } from 'react-icons/bs'
 import styles from './stat-project.module.scss'
 
 export const StatProject = () => {
@@ -12,7 +13,7 @@ export const StatProject = () => {
                 </div>
             </div>
             <div className={styles.stat_projet_2}>
-                
+                <BsEmojiSmile/>
             </div>
         </div>
     )

@@ -19,6 +19,22 @@
         justify-content: space-between;
         p{
             margin: auto 0;
+            width: 60%;
+            display: flex;
+            p{
+                &:nth-child(1){
+                    width: 10%;
+                }
+                &:nth-child(2){
+                    width: 90%;
+                }
+            }
+            svg{
+                color: #04BF9D;
+                font-size: 20px;
+                margin-right: 1%;
+                margin-top: 3%;
+            }
         }
         .container_button{
             width: 40%;

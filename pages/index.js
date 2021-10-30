@@ -1,7 +1,14 @@
 import Head from 'next/head'
 import Link from 'next/link';
 import Image from 'next/image';
-import { AiOutlineSearch, AiOutlineFileExcel, AiFillHeart, AiFillStar } from 'react-icons/ai'
+import { 
+  AiOutlineSearch, 
+  AiOutlineFileExcel, 
+  AiFillHeart, 
+  AiFillStar, 
+  AiFillCheckSquare, 
+  AiOutlineUpload
+} from 'react-icons/ai'
 import { BsBag } from 'react-icons/bs'
 
 import styles from '../styles/Home.module.scss';
@@ -52,7 +59,7 @@ export default function Home() {
             <div className={styles.first_card_check}>
               
               <div className={styles.card_check}>
-                c
+                <AiFillCheckSquare/>
               </div>
             </div>
 
@@ -147,7 +154,10 @@ export default function Home() {
             </p>
             <div className={styles.footer_third_section}>
               <div className={styles.container_button}>
-                <button>Upload CV</button>
+                <button>
+                  <AiOutlineUpload/>
+                  Upload CV
+                </button>
               </div>
               <div className={styles.looking_link}>
                 <Link href="#">
